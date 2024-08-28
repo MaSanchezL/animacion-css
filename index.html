@@ -22,22 +22,41 @@
           Casa Croissant
           <span class="material-symbols-outlined"> bakery_dining </span>
         </p>
-        <span id="icono" class="material-symbols-outlined"> menu_open </span>
       </div>
       <div class="menu">
         <div>
-        
-               <a class="navigation" href="#section-1"><button class="nav-btn">Menú</button></a>   
-               <a class="navigation" href="#section-2"><button class="nav-btn">Delivery</button></a>
-               <a class="navigation" href="#section-3"><button class="nav-btn">Gift Card</button></a>
-               <a class="navigation" href="#section-4"><button class="nav-btn">Contacto</button></a>
-
+          <a class="navigation" href="#section-0"
+            ><button class="nav-btn">Inicio</button></a
+          >
+          <a class="navigation" href="#section-1"
+            ><button class="nav-btn">Menú</button></a
+          >
+          <a class="navigation" href="#section-2"
+            ><button class="nav-btn">Delivery</button></a
+          >
         </div>
+          <div>
+          <a class="navigation" href="#section-3"
+            ><button class="nav-btn">Gift Card</button></a
+          >
+          <a class="navigation" href="#section-4"
+            ><button class="nav-btn">Ofertas</button></a
+          >
         </div>
+      </div>
       <div class="main">
-        <div id="section-1" class="main-title">
-            <span>Prueba nuestras delicias</span>
+        <div id="section-0" class="slideshow">
+          <div class="slides">
+            <img src="./assets/img/carrusel1.png" alt="Imagen 1" />
+            <img src="./assets/img/carrusel2.png" alt="Imagen 2" />
+            <img src="./assets/img/carrusel3.png" alt="Imagen 3" />
+            <img src="./assets/img/carrusel4.png" alt="Imagen 4" />
+          </div>
         </div>
+        <div id="section-1" class="main-title">
+          <span>Prueba nuestras delicias</span>
+        </div>
+        <div id="container-card">
         <div class="card">
           <img
             class="card-img"
@@ -92,6 +111,7 @@
           <span> Croissant con Jamon Serrano y Queso Crema</span>
           <button>Agregar</button>
         </div>
+      </div>
         <div class="divider-custom">
           <div class="divider-custom-line"></div>
           <div class="divider-custom-icon">
@@ -99,25 +119,66 @@
           </div>
           <div class="divider-custom-line"></div>
         </div>
-        <div id="section-2" class="main-delivery">
-            <img id="delivery-img" class="card-img" src="./assets/img/delivery.png" alt="Entrega a domicilio">
-            <span>Arma tu Croissant Box a tu manera y de lo enviamos en 24 horas o menos</span>
+        <div id="section-2" class="main-section">
+          <img
+            class="card-img"
+            src="./assets/img/delivery.png"
+            alt="Entrega a domicilio"
+          />
+          <span
+            >Arma el Croissant Box a tu manera y te lo enviamos en 24 horas o
+            menos</span
+          >
         </div>
         <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon">
-              <i class="fa-solid fa-fire"></i>
-            </div>
-            <div class="divider-custom-line"></div>
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fa-solid fa-fire"></i>
           </div>
-        <div id="section-3" class="main-gift">
-            <span>GIFT CARDS</span>
+          <div class="divider-custom-line"></div>
         </div>
-        <div id="section-4" class="main-contact">
-            <span>CONTACTO</span>
+        <div id="section-3" class="main-section">
+          <span
+            >¡Regala el sabor auténtico! Compra una gift card para disfrutar los
+            mejores croissants artesanales. ¡Sorprende hoy!</span
+          >
+          <img
+            class="card-img"
+            src="./assets/img/giftcard.webp"
+            alt="giftcard"
+          />
+        </div>
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fa-solid fa-fire"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <div id="section-4" class="main-section">
+          <img
+            class="card-img"
+            src="./assets/img/subscribe.jpg"
+            alt="subscribe"
+          />
+          <div id="placeholder">
+            <form action="#" method="post">
+              <label for="email">Hambre de Descuentos?</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Tu correo electrónico"
+                required
+              />
+              <button type="submit">¡Suscríbete!</button>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="footer"><p>footer</p></div>
+      <div class="footer">
+        <p>Casa Croissant <sup>Ⓡ</sup> Todos los derechos reservados</p>
+      </div>
     </div>
   </body>
 </html>
